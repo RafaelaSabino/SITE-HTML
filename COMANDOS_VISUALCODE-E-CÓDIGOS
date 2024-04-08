@@ -1,0 +1,190 @@
+Alt + shift + F // Identificar 
+Ctrl + D // Substituir Conteúdo
+Width // Largura
+Heigth // Altura
+Ctrl + Espaço // Procurar Caminhos
+
+ALINHAMNETO HORIZONTAL
+align= "left" //esquerda
+       "center" //centro
+       "right" // direita
+
+
+-------------- código index.html -----------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <center>
+        <font color="red" size="7">
+            Tabelas - parte 1
+        </font>
+ 
+   <br> <br>
+   
+   <table border="1">
+        <tr> 
+          <td>Linha 1, coluna 1</td>
+          <td>Linha 1, coluna 2</td>
+          <td>Linha 1, coluna 3</td>
+        </tr>
+        <tr> 
+          <td>Linha 2, coluna 1</td>
+          <td>Linha 2, coluna 2</td>
+          <td>Linha 2, coluna 3</td>
+        </tr>
+   </table>
+<br> <br>
+
+<table border="1" width="600">
+    <tr height="100px" height="50px" bgcolor="#B0E0E6"> 
+      <td width="350" align="center"><B>Nome</B></td>
+      <td width="50" align="center"><B>Idade</B></td>
+      <td align="center"  ><B>Sexo</B></td>
+    </tr>
+    <tr> 
+      <td>Amanda</td>
+      <td>16</td>
+      <td>Feminino</td>
+    </tr>
+    <tr> 
+      <td>Carlos</td>
+      <td>19</td>
+      <td>Masculino</td>
+    </tr>
+    <tr> 
+      <td>Renato</td>
+      <td>18</td>
+      <td>Masculino</td>
+    </tr>
+
+</table>
+   
+
+ </center>
+</body>
+
+</html>
+
+------------------- código index.html TABELA (exercício) ------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        $sexo = prompt("Qual é o seu sexo? [M] ou [F]") 
+        document.writeln("Sexo =  " + $sexo)
+
+        $idade = prompt("Digite sua idade: ")
+        if($idade < 18)
+        {
+             document.write("Menor de idade")
+        }
+        else
+        {
+             document.write("Maior de idade")
+        }
+
+       document.write("<br>")
+       document.write("<br>")
+
+       if($sexo == "M")
+       {
+          if($idade < 18) {
+            alert("Menino")
+          }
+          else
+          {
+            alert("Homem")
+          }
+       }
+       else
+       {
+
+       }
+       document.write("<br>")
+       document.write("<br>")
+
+       if($sexo == "F")
+       {
+          if($idade < 18) {
+            alert("Menina")
+          }
+          else
+          {
+            alert("Mulher")
+          }
+       }
+       else
+       {
+
+       }
+
+       document.write("<center>")
+       document.write("<font color='red' size='6' > SENAI / SUMARÉ </font>")
+       document.write("<br>")
+       document.write("<img src='../imagens/homens/homem2.jpg' width='20%''>") 
+       document.write("<br>")
+    </script>
+</head>
+<body>
+    <center>
+         <font color="black" size="7">
+            Informações dos funcionários 
+        </font>
+
+        <br> <br>
+
+        <table border="1" width="600">
+            <tr height="100px" height="50px" bgcolor="#B0E0E6"> 
+              <td width="350" align="center"><B>NOME</B></td>
+              <td width="150" align="center"><B>IDADE</B></td>
+              <td align="center"  ><B>FOTO</B></td>
+            </tr>
+
+              <tr> 
+                <td align="center">Maria Eduarda Reis</td>
+                <td align="center">25</td>
+                <td align="center"><img src="../imagens/mulheres/mulher1.jpg" width="100%"></IMG></td>
+              </tr>
+
+              <tr> 
+                <td align="center">Luísa Uccman</td>
+                <td align="center">19</td>
+                <td align="center"><img src="../imagens/mulheres/mulher2.jpg" width="100%"></IMG></td>
+              </tr>
+
+              <tr> 
+                <td align="center">Rosângela da Silva</td>
+                <td align="center">54</td>
+                <td align="center"><img src="../imagens/mulheres/mulher3.jpg" width="100%"></IMG></td>
+              </tr>
+
+              <tr> 
+                <td align="center">Ángel Romero</td>
+                <td align="center">31</td>
+                <td align="center"><img src="../imagens/homens/homem1.jpg" width="100%"></IMG></td>
+              </tr>
+
+              <tr> 
+                <td align="center">Cássio Ramos</td>
+                <td align="center">36</td>
+                <td align="center"><img src="../imagens/homens/homem2.jpg" width="100%"></IMG></td>
+              </tr>
+
+              <tr> 
+                <td align="center">Matheus Araújo</td>
+                <td align="center">21</td>
+                <td align="center"><img src="../imagens/homens/homem3.jpg" width="100%"></IMG></td>
+              </tr>
+    </center>
+</body>
