@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        $peso = prompt("Digite seu peso (em kg): ")
+        $altura = prompt("Digite sua altura (em cm): ")
+        $imc = 0
+        $imc = ($peso/($altura * $altura))
+        document.write($imc)
+
+        if($imc < 0.00185)
+         {
+                //alert("BAIXO PESO")
+                document.write("IMC = BAIXO PESO")
+                document.write(" <center> <font color='red' size='7'> Tabela Classificação: BAIXO PESO </font>")
+                document.write("<table border='1' width='780'>")
+                document.write("<tr bgcolor='#FFF0F5' align='center'>")
+                document.write(" <td width='350' align='center'><B>PESO</B></td>")
+                document.write(" <td width='80' align='center'><B>ALTURA</B></td>")
+                document.write(" <td width='80' align='center'><B>IMC</B></td>")
+                document.write(" <td width=''  align='center'><B>FOTO</B></td>")
+                document.write(" </tr>")
+                document.write(" <tr>")
+                document.write("<td>")
+                document.write($peso)
+                document.write("</td>")
+                document.write("<td>")
+                document.write($altura)
+                document.write("</td>")
+                document.write("<td>") 
+                document.write($imc)
+                document.write("</td>")
+                document.write("<td><img src='../img/olivia.jpg'  width='50%'></td> ") 
+                document.write("< /tr>")
+                document.write("</table>")
+
+            }
+       else if($imc > 0.00185 && $imc < 0.00249 )
+         {
+                //alert("PESO NORMAL")
+                document.write("IMC = PESO NORMAL")
+                document.write(" <center> <font color='red' size='7'> Tabela Classificação: PESO NORMAL </font>")
+                document.write("<table border='1' width='780'>")
+                document.write("<tr bgcolor='#FFF0F5' align='center'>")
+                document.write(" <td width='350' align='center'><B>PESO</B></td>")
+                document.write(" <td width='80' align='center'><B>ALTURA</B></td>")
+                document.write(" <td width='80' align='center'><B>IMC</B></td>")
+                document.write(" <td width=''  align='center'><B>FOTO</B></td>")
+                document.write(" </tr>")
+                document.write(" <tr>")
+                document.write("<td>")
+                document.write($peso)
+                document.write("</td>")
+                document.write("<td>")
+                document.write($altura)
+                document.write("</td>")
+                document.write("<td>") 
+                document.write($imc)
+                document.write("<td><img src='../img/kylie.jpg'  width='50%'></td> ")
+                document.write("< /tr>")
+                document.write("</table>")
+
+            }
+           else if($imc > 0.00249 && $imc < 0.00299 )
+         {
+                //alert("SOBREPESO")
+                document.write("IMC = SOBREPESO")
+                document.write(" <center> <font color='red' size='7'> Tabela Classificação: PESO SOBREPESO </font>")
+                document.write("<table border='1' width='780'>")
+                document.write("<tr bgcolor='#FFF0F5' align='center'>")
+                document.write(" <td width='350' align='center'><B>PESO</B></td>")
+                document.write(" <td width='80' align='center'><B>ALTURA</B></td>")
+                document.write(" <td width='80' align='center'><B>IMC</B></td>")
+                document.write(" <td width=''  align='center'><B>FOTO</B></td>")
+                document.write(" </tr>")
+                document.write(" <tr>")
+                document.write("<td>")
+                document.write($peso)
+                document.write("</td>")
+                document.write("<td>")
+                document.write($altura)
+                document.write("</td>")
+                document.write("<td>") 
+                document.write($imc)
+                document.write("<td><img src='../img/sobrepeso.jpg'  width='50%'></td> ")
+                document.write(" </tr>")
+                document.write("</table>")
+
+        }    
+    
+        else 
+        {
+                document.write("IMC = OBESIDADE")
+                document.write(" <center> <font color='red' size='7'> Tabela Classificação: OBESIDADE </font>")
+                document.write("<table border='1' width='780'>")
+                document.write("<tr bgcolor='#FFF0F5' align='center'>")
+                document.write(" <td width='350' align='center'><B>PESO</B></td>")
+                document.write(" <td width='80' align='center'><B>ALTURA</B></td>")
+                document.write(" <td width='80' align='center'><B>IMC</B></td>")
+                document.write(" <td width=''  align='center'><B>FOTO</B></td>")
+                document.write(" </tr>")
+                document.write(" <tr>")
+                document.write("<td>")
+                document.write($peso)
+                document.write("</td>")
+                document.write("<td>")
+                document.write($altura)
+                document.write("</td>")
+                document.write("<td>") 
+                document.write($imc)
+                document.write("<td><img src='../img/thais.jpg'  width='50%'></td> ")
+                document.write(" </tr>")
+                document.write("</table>")
+
+            }    
+    </script>
+</head>
+<body>
+   
+
+</body>
+</html> 
