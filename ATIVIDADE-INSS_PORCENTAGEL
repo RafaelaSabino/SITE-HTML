@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        $salario =  prompt("Informe o salário: ")
+        $porcentagem = 0
+        $porcaliq = 0 // PORCENTAGEM ALIQUOTA 
+
+        if($salario < 1100.01) 
+        {
+          $porcentagem =  "7.5%"
+          $porcaliq = 0.075
+        }
+        else 
+        
+          if($salario < 2203.49)
+        { 
+            $porcentagem =  "9%"
+            $porcaliq = 0.09
+        }
+        else
+        
+          if($salario < 3305.23)
+        {
+            $porcentagem =  "12%"
+            $porcaliq = 0.12
+        }
+        else
+        {
+            $porcentagem = "14%"
+            $porcaliq = 0.14  
+
+        }
+         
+        $valor_desconto_inss = ($salario * $porcaliq)
+
+                document.write(" <center> <font color='blue' size='7'> ESTOQUE </font>")
+                document.write("<table border='1' width='600'>")
+                document.write("<tr bgcolor='#836FFF' align='center'>")
+                document.write(" <td width='350' align='center'><B>SALÁRIO</B></td>")
+                document.write(" <td width='80' align='center'><B>VALOR DESCONTADO</B></td>")
+                document.write(" </tr>")
+                document.write(" <tr>")
+                document.write("<td>")
+                document.write($salario)
+                document.write("</td>")
+                document.write("<td>")
+                document.write($valor_desconto_inss.toFixed(2))
+                document.write("</td>")
+                document.write(" </tr>")
+                document.write("</table>")
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
