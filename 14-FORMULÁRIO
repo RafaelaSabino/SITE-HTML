@@ -1,0 +1,19 @@
+<html>
+<html lang="en">
+
+</head>
+<body> 
+<form name= "form1" action="pag2.php" method= "post"> 
+
+    Nome: <input type= "text" name = "fNome"> <br>
+    Idade: <input type= "text" name = "fIdade"> <br> 
+    Cidade: <input type= "text" name = "fCidade" size="50" maxlength="50"> <br>
+    Estado: <input type= "text" name = "fEstado" size="2" maxlength="2"> <br>
+    <br>
+    <input type="submit" value="Gravar">
+    <input type="reset" value="Limpar"> <!-- Limpar os campos -->
+ 
+</form>
+
+</body>
+</html>
