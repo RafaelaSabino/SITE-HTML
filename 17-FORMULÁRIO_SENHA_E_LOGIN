@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Validar()
+        {
+            $login = this.form1.fLogin.value;
+            $senha = this.form1.fSenha.value;
+            $qtdCaracteres_login = $login.length;
+            $qtdCaracteres_senha = $senha.length;
+
+            if($login == "Senai" && $senha == "Sumare")
+            {
+                alert(" Bem Vindo! ")
+            }
+            else if($login != "Senai" || $senha != "Sumare")
+            {
+                alert("User ou Senha Inválida")
+            }
+        }
+    </script>
+
+
+</head>
+<body> 
+<form name= "form1" action="pag2.php" method= "post" onsubmit="return Validar()"> 
+
+    Login: <input type= "text" name = "fLogin"> <br>
+    Senha: <input type= "password" name = "fSenha"> <br> 
+    
+    <br> <br>
+    
+    <input type="submit" value="Gravar">
+    <input type="reset" value="Limpar"> <!-- Limpar os campos -->
+ 
+</form>
+
+</body>
+</html>
