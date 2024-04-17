@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Validar()
+        {
+            $nome = this.form1.fNome.value;
+            $idade = this.form1.fIdade.value;
+            $cidade = this.form1.fCidade.value;
+            $estado = this.form1.fEstado.value;
+            $sexo = this.form1.fSexo.value;
+
+            $qtdCaracteres_nome = $nome.length;
+
+            if($qtdCaracteres_nome < 1)
+            {
+                alert("Por favor, digite seu nome!")
+                //return false
+            }
+            
+            document.write($nome + " tem " + $qtdCaracteres_nome + " caracteres. <br> ") 
+            document.write($nome + " você é do sexo " + $sexo + ", sua idade é de " + $idade + " anos, você é da cidade de " + $cidade + "  " + $estado + ".")
+            returnfalse
+        }
+    </script>
+
+
+</head>
+<body> 
+<form name= "form1" action="pag2.php" method= "post" onsubmit="return Validar()"> 
+
+    Nome: <input type= "text" name = "fNome"> <br>
+    Idade: <input type= "text" name = "fIdade"> <br> 
+    Cidade: <input type= "text" name = "fCidade" size="50" maxlength="50"> <br>
+    Estado: <input type= "text" name = "fEstado" size="2" maxlength="2"> <br>
+    
+    Sexo: <br> 
+    Masculino <input type="radio" name="fSexo" value="masculino">
+    Feminino <input type="radio" name="fSexo" value="feminino">
+
+    <br> <br>
+    
+    <input type="submit" value="Gravar">
+    <input type="reset" value="Limpar"> <!-- Limpar os campos -->
+ 
+</form>
+
+</body>
+</html>
