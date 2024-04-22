@@ -1,0 +1,210 @@
+INDEX.HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Validar()
+        {
+            $login = this.form1.fLogin.value;
+            $senha = this.form1.fSenha.value;
+            $qtdCaracteres_login = $login.length;
+            $qtdCaracteres_senha = $senha.length;
+
+            if($login == "Senai" && $senha == "Sumare")
+            {
+               
+                document.write("teste")
+                window.location.href = "formulario.html";
+            }
+            else 
+            {
+                document.write("teste")
+                window.location.href = "erro.html";
+            }
+        }
+    </script>
+
+
+</head>
+<body> 
+ <center> <br> <br>
+   <img src = "../imagens/SENAI.jpg" width="20%" <br> 
+
+   <br> <br> <br> <br> <br> <br>
+
+ <form name= "form1" action="" method= "post" onsubmit="return Validar()"> 
+
+    Login: <input type= "text" name = "fLogin"> <br>
+    Senha: <input type= "password" name = "fSenha"> <br> 
+    
+    <br> <br>
+    
+    <input type="submit" value="ENTRAR">
+    <input type="reset" value="LIMPAR"> <!-- Limpar os campos -->
+ 
+</form>
+</center>
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------
+FORMULARIO.HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document 1</title>
+ <script>
+    function Validar() {
+
+           $nome = this.form1.fNome.value;
+           $idade = this.form1.fIdade.value;
+           $sexo = this.form1.fSexo.value;
+           $curso = this.form1.fCurso.value;
+           $turno = this.form1.fTurno.value;
+           $professor1 = this.form1.fProfessor1.value;
+           $professor2 = this.form1.fProfessor2.value;
+           
+          ///1
+           
+           document.write("<font color='black' size='5'>Cadrastro concluído com sucesso! </font>")
+           document.write("<br><br>")
+           document.write("<font color='black' size='5'>Essas foram as informações fornecidas:</font>")
+           document.write("<br>")
+           document.write("<b>Nome: </b>" + $nome)
+           document.write("<br>")
+           document.write("<b>Idade: </b>" + $idade)
+           document.write("<br>")
+           document.write("<b>Sexo: </b>" + $sexo)
+           document.write("<br>")
+           document.write("<b>Curso: </b>" + $curso)
+           document.write("<br>")
+           document.write("<b>Turno: </b>" + $turno)
+           document.write("<br>")
+           document.write("<b>Professor 1: </b>" + $professor1)
+           document.write("<br>")
+           document.write("<b>Professor 2: </b>" + $professor2)
+           document.write("<br>")
+          ///2
+           return false;
+
+}
+</script>
+<body> 
+    <form name= "form1" action="" method= "post" onsubmit="return Validar()"> 
+    BEM VINDO(A)!
+    <br> <br>
+    <font color ="black" size="7">
+        FORMULÁRIO &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
+    </font>
+        <img src = "../imagens/SENAI.jpg" width="20%" <br> 
+     
+        <br> <br> <br> <br> 
+
+    
+        <form name= "form1" action="" method= "post" > 
+       
+                Nome: <input type= "text" name = "fNome"> <br>
+                Idade: <input type= "text" name = "fIdade">  &nbsp &nbsp &nbsp
+                Sexo: 
+                Masculino <input type="radio" name="fSexo" value="masculino">
+                Feminino <input type="radio" name="fSexo" value="feminino">
+                <br> <br> 
+                Curso:
+                <select name="fCurso">
+                    <option value="emBranco">Escolha: </option>
+                
+                    <option value="DS" >DS</option>
+                    <option value="MECÂNICA" >MECÂNICA</option>
+                    <option value="SOLDA" >SOLDA</option> 
+                </select> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+                Turno:
+                <select name="fTurno"> 
+                    <option value="emBranco">Escolha: </option>
+        
+                    <option value="MANHÃ" >MANHÃ</option>
+                    <option value="TARDE" >TARDE</option>
+                    <option value="NOITE" >NOITE</option> 
+                    <option value="INTEGRAL" >INTEGRAL</option> 
+                </select> <br><br> 
+                Professor 1: 
+                <select name="fProfessor1">
+                    <option value="emBranco"></option>
+        
+                    <option value="LUCAS CALU" >LUCAS CALU</option>
+                    <option value="RICARDO CORRÊA" >RICARDO CORRÊA</option>
+                </select> &nbsp &nbsp &nbsp 
+                Professor 2: 
+                <select name="fProfessor2">
+                    <option value="emBranco"></option>
+        
+                    <option value="LUCAS CALU" >LUCAS CALU</option>
+                    <option value="RICARDO CORRÊA" >RICARDO CORRÊA</option>
+        
+                </select> <br> <br> 
+        
+                 DISCIPLINA QUE MAIS GOSTA:
+                 
+                 <br><br>
+                
+                 <form name ="form1" action="" nethod="post" onsubmit="return Validar()">
+                  <input type="checkbox" name="HTML" value="HTML">
+                  <label for="vehicle1">HTML</label><br>
+                  
+                  <input type="checkbox" id="vehicle2" name="JAVASCRIPT" value="JAVASCRIPT">
+                  <label for="vehicle2">JAVASCRIPT</label><br>
+                  
+                  <input type="checkbox" id="vehicle3" name="ARDUINO" value="ARDUINO">
+                  <label for="vehicle3">ARDUINO</label><br>
+                  
+                  <input type="checkbox" id="vehicle1" name="LÓGICA" value="LÓGICA">
+                  <label for="vehicle1">LÓGICA</label><br>
+                  
+                  <input type="checkbox" id="vehicle2" name="GESTALT" value="GESTALT">
+                  <label for="vehicle2">GESTALT</label><br><br><br>
+                  
+                  <input type="submit" value="Gravar">
+                  <input type="reset" value="Limpar">
+        </form>
+    </form>
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ERRO.HTML
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>Acesso negado</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecionamento</title>
+</head>
+<body>
+    <center>
+    <h1>Acesso negado <br> Volte para página inicial</h1>
+    </center>
+    <center>
+    <img src = "../imagens/negado.jpg" width="20%" <br>     
+    </center>
+    <center>
+    <button id="meuBotao">Clique aqui e tente novamente</button>
+    </center>
+    <script src="script.js"></script>
+    <script>
+  
+var meuBotao = document.getElementById('meuBotao');
+
+meuBotao.addEventListener('click', function() {
+
+    window.location.href = 'index.html';
+});
+    </script>
+</body>
+</html>
