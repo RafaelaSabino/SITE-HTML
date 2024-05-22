@@ -9,6 +9,9 @@ align= "left" //esquerda
        "center" //centro
        "right" // direita
 
+MUDAR A COR DO LINK 
+<a href="o que é.html" style="color: red;">O QUE É SIPAT?</a>
+
 
 -------------- código index.html -----------------
 
