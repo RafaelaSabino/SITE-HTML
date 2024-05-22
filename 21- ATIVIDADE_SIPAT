@@ -1,0 +1,197 @@
+-------------------- ATIVIDADE SEMANA DE PREVENÇÃO INTERNA À ACIDENTES NO TRABALHO --------------------
+PÁGINA INICIAL 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Validar()
+        {
+            
+        }
+    </script>
+
+ <style>
+    
+ </style>
+
+</head>
+<body bgcolor="#4A6C80">
+    <form name= "form1" action="" method= "post" onsubmit="return Validar()"> 
+ <center> <br> <br>
+    <font color ="#FB8B29" size="7">
+        SIPAT <br> </font>
+        <font color ="#FB8B29" size="5">
+            SEMANA INTERNA DE PREVENÇÃO
+             DE ACIDENTES NO TRABALHO <br><br> </font>
+   <img src = "../img/imagem.jpg" width="25%" <br>  
+  <br> <br> 
+  
+     <a href="o que é.html" style="color: #FB8B29;">O QUE É SIPAT?</a>
+     <br><br>
+     <a href="objetivo.html" style="color: #FB8B29;">QUAIS OS OBJETIVOS?</a>
+     <br><br>
+     <a href="como promover.html" style="color: #FB8B29;">COMO PROMOVER NA EMPRESA?</a>
+ 
+</body>
+</html>
+
+-------------------- O QUE É A SIPAT --------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="#4A6C80">
+    <form name= "form1" action="" method= "post" onsubmit="return Validar()"> 
+ <center> <br> <br>
+    <font color ="#FB8B29" size="7">
+        SIPAT <br><br>
+    </font>
+  <img src = "../img/imagem.jpg" width="25%" <br>  
+  <br> <br> <br>
+  <font color ="#FB8B29" size="5">
+      O QUE É SIPAT?
+     <br><br>
+    </font>
+    <font color ="#000000" size="5">
+     A SIPAT, Semana Interna de Prevenção de Acidentes de Trabalho, é uma iniciativa organizada 
+     pelas empresas para conscientizar os funcionários sobre a importância da prevenção de acidentes 
+     no ambiente de trabalho, conforme a legislação brasileira. Coordenada pela CIPA, 
+     Comissão Interna de Prevenção de Acidentes de Trabalho, esse evento é obrigatório para empresas 
+     com mais de 20 colaboradores. Durante a SIPAT, os funcionários participam de atividades como 
+     palestras e treinamentos sobre prevenção de acidentes, e também podem aprender sobre cuidados com 
+     a saúde em casa, visando o bem-estar geral. 
+    </font>
+    
+    <br> <br> 
+  
+     <a href="index.html" style="color: #FB8B29;">VOLTAR À PÁGINA INICIAL</a>
+    
+</body>
+</html>
+
+-------------------- QUAL É O OBJETIVO DA SIPAT --------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="#4A6C80">
+    <form name= "form1" action="" method= "post" onsubmit="return Validar()"> 
+ <center> <br> <br>
+    <font color ="#FB8B29" size="7">
+        SIPAT <br><br>
+    </font>
+  <img src = "../img/imagem.jpg" width="25%" <br>  
+  <br> <br> <br>
+  <font color ="#FB8B29" size="5">
+      QUAIS OS OBJETIVOS DA SIPAT?
+     <br><br>
+    </font>
+    <font color ="#000000" size="5">
+        <P>
+            Para compreender a importância da SIPAT, é essencial entender o que constitui um acidente 
+            de trabalho, conforme definido pela Lei nº 8.213/91 e pela NR-5. Um acidente de trabalho é 
+            aquele que ocorre durante o exercício das atividades profissionais, resultando em lesão 
+            corporal ou perturbação funcional que possa levar à morte, perda ou redução temporária ou 
+            permanente da capacidade de trabalho.
+        </P>
+        <P>
+           A NR-5 estabelece que a Comissão Interna de Prevenção de Acidentes de Trabalho visa à 
+           prevenção de acidentes e doenças ocupacionais, garantindo a compatibilidade entre trabalho 
+           e preservação da vida e saúde do trabalhador.
+        </P>
+        <P> 
+           Portanto, a programação da SIPAT deve incluir conteúdos teóricos e práticos que 
+           promovam comportamentos e atitudes seguras no ambiente de trabalho, visando prevenir 
+           acidentes e proteger a vida dos funcionários.
+        </P>
+        <P>
+        Além disso, a SIPAT é uma oportunidade para relembrar e reforçar as orientações aos 
+        colaboradores, pois ao longo do tempo, eles podem esquecer ou negligenciar normas importantes 
+        da empresa. Este momento anual é crucial para garantir a conscientização contínua sobre 
+        segurança no trabalho.
+        </P>
+        
+    </font>
+    
+    <br> <br> 
+  
+     <a href="index.html" style="color: #FB8B29;">VOLTAR À PÁGINA INICIAL</a>
+    
+</body>
+</html>
+
+-------------------- COMO PROMOVER A SIPAT --------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="#4A6C80">
+    <form name= "form1" action="" method= "post" onsubmit="return Validar()"> 
+ <center> <br> <br>
+    <font color ="#FB8B29" size="7">
+        SIPAT <br><br>
+    </font>
+  <img src = "../img/imagem.jpg" width="25%" <br>  
+  <br> <br> <br>
+  <font color ="#FB8B29" size="5">
+      COMO PROMOVR NA EMPRESA?
+     <br><br>
+    </font>
+    <font color ="#000000" size="5">
+      <P>
+        Primeiramente, é fundamental constituir a equipe da CIPA, que deve incluir representantes 
+        tanto <br> dos empregados quanto dos empregadores, eleitos em votação secreta pelos interessados.
+      </P>
+      <P>
+        Com a equipe definida, é hora de começar a preparação para o evento anual. 
+        Aqui estão alguns passos essenciais:
+      </P>
+      <ul>
+        1. Planejamento: Liste todos os elementos necessários para a SIPAT, incluindo data, temas, 
+        tipos de atividades <br> e recursos financeiros necessários, além de designar responsáveis por cada 
+        tarefa.
+      </ul>
+      <ul>
+        2. Cronograma: Desenvolva um cronograma detalhado das ações para garantir que tudo esteja 
+        pronto <br> e organizado até a semana do evento, considerando possíveis imprevistos e estabelecendo 
+        prazos anteriores à data da SIPAT.
+      </ul>
+      <ul>
+        3. Definição de temas e parceiros: Escolha os temas com base na análise do ambiente interno 
+        da <br> empresa e nas tendências da sociedade. Busque parceiros para realizar palestras, treinamentos 
+        e dinâmicas, <br> priorizando a qualidade do serviço oferecido para conscientizar os colaboradores 
+        sobre a importância da prevenção <br> de acidentes de trabalho.
+      </ul>
+     <ul>
+        4. Comunicação interna: Garanta uma comunicação eficaz dentro da empresa para estimular o 
+        interesse e <br> a participação dos colaboradores na SIPAT, visando o engajamento no aprendizado 
+        dos temas abordados durante a semana de conscientização.
+     </ul>
+     <ul>
+        5. Coleta de feedback: Ao final de cada edição, solicite feedback dos participantes para avaliar 
+        o conteúdo, <br> as atividades mais apreciadas e os temas mais relevantes. Utilize essas informações 
+        para melhorar as próximas <br> SIPATs e promover o envolvimento contínuo dos profissionais.
+     </ul>
+    </font>
+    
+    <br> <br> 
+  
+     <a href="index.html" style="color: #FB8B29;">VOLTAR À PÁGINA INICIAL</a>
+    
+</body>
+</html>
