@@ -1,0 +1,229 @@
+-------------------- ATIVIDADE MEIO AMBIENTE --------------------
+PÁGINA INICIAL
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Validar()
+        {
+            
+        }
+    </script>
+
+ <style>
+    
+ </style>
+
+</head>
+<body bgcolor="#fefcfc">
+    <form name= "form1" action="" method= "post" onsubmit="return Validar()"> 
+ <center> <br> <br>
+    <font color ="#9dc53c" size="7">
+        MEIO AMBIENTE <br> 
+    </font> <BR> <BR> 
+   <img src = "../img/meio.png" width="25%" <br>  
+  <br> <br> <br> 
+  
+     <a href="o que é.html" style="color: #9dc53c;">QUAL A SUA IMPORTÂNCIA?</a>
+     <br><br>
+     <a href="como preservar.html" style="color: #9dc53c;">COMO PRESERVAR</a>
+     <br><br>
+     <a href="problemas.html" style="color: #9dc53c;">OS PRINCIPAIS PROBLEMAS QUE AFETAM O MEIO AMBIENTE</a>
+ 
+     <br> <br> <br> <br> 
+
+     <font color ="#9dc53c" size="5">
+       SENAI SUMARÉ <br> 
+    </font>
+</body>
+</html>
+
+-------------------- QUAL A IMPORTÂNCIA --------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="#fefcfc">
+    <form name= "form1" action="" method= "post" onsubmit="return Validar()"> 
+ <center> <br> <br>
+    <font color ="#9dc53c" size="7">
+        MEIO AMBIENTE <br><br>
+    </font>
+  <img src = "../img/meio.png" width="25%" <br>  
+  <br> <br> <br>
+  <font color ="#9dc53c" size="5">
+      QUAL É A IMPORTÂNCIA?
+     <br><br>
+    </font>
+    <font color ="#9dc53c" size="5">
+        
+    O meio ambiente é essencial para a vida na Terra. Ele fornece recursos naturais vitais, como água, ar, 
+    alimentos e matérias-primas, além de regular o clima e sustentar a biodiversidade. A saúde dos 
+    ecossistemas impacta diretamente a saúde humana e o bem-estar social e econômico. Preservar o meio 
+    ambiente é crucial para garantir a sustentabilidade e a qualidade de vida das futuras gerações.
+
+
+    </font>
+    
+    <br> <br> 
+  
+     <a href="index.html" style="color: #9dc53c;">VOLTAR À PÁGINA INICIAL</a>
+    
+</body>
+</html>
+
+-------------------- COMO PRESERVAR --------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="#fefcfc">
+    <form name= "form1" action="" method= "post" onsubmit="return Validar()"> 
+ <center> <br> <br>
+    <font color ="#9dc53c" size="7">
+        MEIO AMBIENTE <br><br>
+    </font>
+  <img src = "../img/meio.png" width="25%" <br>  
+  <br> <br> <br>
+  <font color ="#9dc53c" size="5">
+      MAS ENTÃO... COMO REALMENTE PRESERVAR O MEIO AMBIENTE:
+     <br><br>
+    </font>
+    <font color ="#9dc53c" size="5">
+        <P>
+            Preservar o meio ambiente envolve uma série de práticas e ações que podem ser adotadas por 
+            indivíduos, comunidades, empresas e governos. Aqui estão algumas maneiras de preservar o meio 
+            ambiente:
+        </P>
+        <P>
+            1. Reduzir, Reutilizar e Reciclar: Minimize a produção de resíduos reduzindo o consumo, 
+            reutilizando itens sempre que possível e reciclando materiais como papel, plástico, vidro 
+            e metal.
+        </P>
+        <P> 
+            2. Economizar Energia: Utilize energia de forma eficiente, apagando luzes e eletrônicos 
+            quando não estão em uso, utilizando aparelhos de baixo consumo energético e investindo em 
+            fontes de energia renovável, como solar e eólica.
+        </P>
+        <P>
+            3. Conservar Água: Use a água de forma consciente, reparando vazamentos, tomando banhos 
+            curtos, utilizando sistemas de irrigação eficientes e coletando água da chuva.
+        </P>
+        <P>
+            4. Proteger a Biodiversidade: Preserve habitats naturais, evite a introdução de espécies 
+            invasoras e apoie práticas de agricultura sustentável que protejam a fauna e a flora locais.
+        </P>
+        <P>
+            5. Optar por Transportes Sustentáveis: Utilize meios de transporte mais sustentáveis, 
+            como caminhar, andar de bicicleta, usar transporte público ou veículos elétricos para 
+            reduzir as emissões de gases de efeito estufa.
+        </P>
+        <P>
+            6. Promover a Educação Ambiental: Eduque-se e aos outros sobre a importância da 
+            conservação ambiental e práticas sustentáveis, fomentando uma cultura de respeito 
+            e proteção ao meio ambiente.
+        </P>
+        <P>
+            7. Participar de Ações Comunitárias: Envolva-se em iniciativas locais de preservação ambiental, 
+            como plantio de árvores, limpeza de praias e rios, e campanhas de conscientização.
+        </P>
+        <P>
+            8. Apoiar Políticas Ambientais: Apoie e pressione por políticas públicas que visem à proteção do 
+            meio ambiente, como regulamentações sobre poluição, conservação de áreas naturais e incentivos 
+            a práticas sustentáveis.
+        </P>
+        <P>
+            Adotar essas práticas ajuda a mitigar os impactos ambientais negativos e a promover 
+            um futuro mais sustentável para todos.
+        </P>
+    </font>
+    
+    <br> <br> 
+  
+     <a href="index.html" style="color: #9dc53c;">VOLTAR À PÁGINA INICIAL</a>
+    
+</body>
+</html>
+
+-------------------- QUAIS OS PRINCIPAIS PROBLEMAS --------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="#fefcfc">
+    <form name= "form1" action="" method= "post" onsubmit="return Validar()"> 
+ <center> <br> <br>
+    <font color ="#9dc53c" size="7">
+        MEIO AMBIENTE <br><br>
+    </font>
+  <img src = "../img/meio.png" width="25%" <br>  
+  <br> <br> <br>
+  <font color ="#9dc53c" size="5">
+    QUAIS OS PRINCIPAIS PROBLEMAS
+     <br><br>
+    </font>
+    <font color ="#9dc53c" size="5">
+      <P>
+        Os cinco principais problemas que causam danos significativos ao meio ambiente são:
+      </P>
+      <ul>
+       1. Mudança Climática: O aquecimento global, causado principalmente pela emissão de gases 
+       de efeito estufa como dióxido de carbono (CO₂) e metano (CH₄), resulta em alterações climáticas 
+       extremas, aumento do nível do mar, derretimento de geleiras e impactos severos na biodiversidade 
+       e nos ecossistemas.
+      </ul>
+      <ul>
+        2. Desmatamento: A destruição de florestas para agricultura, pecuária, urbanização e 
+        exploração de madeira reduz a biodiversidade, contribui para a emissão de CO₂ e altera os 
+        ciclos hidrológicos, impactando negativamente o clima global e local.
+      </ul>
+      <ul>
+        3. Poluição: A poluição do ar, da água e do solo por resíduos industriais, agrícolas e 
+        domésticos causa danos à saúde humana, destruição de habitats e contaminação de recursos 
+        naturais vitais. A poluição plástica, em particular, representa uma grande ameaça aos oceanos 
+        e à vida marinha.
+      </ul>
+      <ul>
+        4. Perda de Biodiversidade: A extinção de espécies e a degradação de habitats, resultantes 
+        de atividades humanas como desmatamento, poluição e caça, comprometem os ecossistemas e os 
+        serviços que eles fornecem, como polinização, controle de pragas e equilíbrio ecológico.
+      </ul>
+      <ul>
+        5. Degradação do Solo: A utilização insustentável do solo, através de práticas agrícolas 
+        inadequadas, urbanização descontrolada e mineração, leva à erosão, desertificação e perda de 
+        fertilidade, comprometendo a capacidade de produção de alimentos e a saúde dos ecossistemas 
+        terrestres.
+      </ul>
+      <ul>
+        Esses problemas são interconectados e exigem ações coordenadas e sustentáveis 
+        para mitigar seus impactos e proteger o meio ambiente para as futuras gerações.
+      </ul>
+    </font>
+    
+    <br> <br> 
+  
+     <a href="index.html" style="color: #9dc53c;">VOLTAR À PÁGINA INICIAL</a>
+    
+</body>
+</html>
+
+
+
